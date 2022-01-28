@@ -1,0 +1,81 @@
+body {
+    
+}
+.frame {
+    
+    margin: auto;
+    margin-top: 5vh;
+    width: 460px;
+    background-color: rgb(117, 116, 116);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 5px;
+    display: grid;
+    border:rgb(117, 116, 116);
+    
+}
+.button1{
+    font-size: 120px;
+    cursor:pointer;
+}
+.whoWin{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: red;
+    font-family: cursive ;
+    margin:auto;
+    height: 50px;
+    width: 350px;
+    /* border: solid red; */
+}
+.reset {
+    font-family: cursive ;
+    font-size: 25px;
+    padding: 15px 30px;
+    width: 150px;
+    font-weight: bolder;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border:red solid;
+    color: rgb(41, 8, 131);
+    border-radius: 7px;
+    cursor:pointer;
+    background-color: rgb(219, 219, 219);
+}
+.reset:hover {
+    font-family: cursive ;
+    font-size: 25px;
+    padding: 15px 30px;
+    width: 150px;
+    font-weight: bolder;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border:red solid;
+    color: rgb(41, 8, 131);
+    background-color: rgb(168, 167, 167);
+    cursor:pointer;
+    border-radius: 7px;
+    transform: translate(3px,3px);
+}
+.reset:active {
+    font-family: cursive ;
+    font-size: 25px;
+    padding: 15px 30px;
+    width: 150px;
+    font-weight: bolder;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border:red solid;
+    color: rgb(41, 8, 131);
+    background-color: rgb(219, 219, 219);
+    cursor:pointer;
+    border-radius: 7px;
+    transform: translate(3px,3px);
+}
